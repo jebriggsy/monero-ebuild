@@ -17,3 +17,6 @@ A Gentoo ebuild script to automate the installation of the Monero cryptocoin wal
 
 ## To start daemon on boot
 - *sudo rc-update add bitmonerod default*
+
+## To configure daemon
+- Edit /etc/conf.d/bitmonerod
