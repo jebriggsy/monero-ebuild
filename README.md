@@ -1,7 +1,7 @@
 # monero-ebuild
 A Gentoo ebuild script to automate the installation of the Monero cryptocoin wallet, daemon, and simple miner.
 
-## To install:
+## Installation
 - Create a local overlay using this guide: https://wiki.gentoo.org/wiki/Overlay/Local_overlay
 - *mkdir -p /usr/local/portage/net-p2p*
 - *cd /usr/local/portage/net-p2p*
@@ -10,13 +10,13 @@ A Gentoo ebuild script to automate the installation of the Monero cryptocoin wal
 - *chown -R portage:portage monero*
 - *emerge net-p2p/monero*
 
-## To use
+## Usage
 - *cd ~*
 - *sudo /etc/init.d/bitmonerod start*
 - *simplewallet*
 
-## To start daemon on boot
+## Start bitmonerod on boot
 - *sudo rc-update add bitmonerod default*
 
-## To configure daemon
+## Bitmonerod config
 - Edit /etc/conf.d/bitmonerod
