@@ -9,7 +9,7 @@ A Gentoo ebuild script to automate the installation of the Monero cryptocoin wal
 - *mv monero-ebuild monero*
 - *mkdir -p /usr/local/portage/licenses*
 - *mv monero/monero /usr/local/portage/licenses/*
-- *chown -R portage:portage monero*
+- *chown -R portage:portage /usr/local/portage* 
 - *emerge net-p2p/monero*
 
 ## Usage
